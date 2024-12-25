@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator </title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">InfoVision</a>
+        <div class="menu-btn">
+            <!-- Optional: Add hamburger menu icon here -->
+        </div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="index.html" style="--i:1;">Home</a>
+                <div class="dropdown" style="--i:2;">
+                    <a href="#">Services</a>
+                    <div class="dropdown-content">
+                        <a href="AI_Image.html">AI Image</a>
+                        <a href="quiz.html">Quiz</a>
+                        <a href="News.html">News</a>
+                    </div>
+                </div>
+                <a href="contact.html" style="--i:3;">Contact</a>
+                <a href="about.html" style="--i:4;">About</a>
+            </div>
+        </div>
+    </header>
+    <section class="image-generator">
+        <div class="content">
+            <h1>AI Image Generator</h1>
+            <form action="#" class="generate-form">
+                <input type="text" class="prompt-input" placeholder="Describe what you want to generate" required>
+                <div class="controls">
+                    <select class="img-quantity" name="" id="">
+                        <option value="1">1 Image</option>
+                        <option value="2">2 Images</option>
+                        <option value="3">3 Images</option>
+                        <option value="4" selected>4 Images</option>
+                    </select>
+                    <button type="submit" class="generate-btn">Generate</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="image-gallery">
+        <div class="img-card ">
+            <img src="static/img-1.jpg" alt="img">
+            <a href="static/img-1.jpg" class="download-btn" download>
+                <img h src="static/download.svg" alt="download-icon">
+            </a>
+        </div>
+        <div class="img-card">
+            <img src="static/img-2.jpg" alt="img">
+            <a href="static/img-2.jpg" class="download-btn" download>
+                <img src="static/download.svg" alt="download-icon">
+            </a>
+        </div>
+        <div class="img-card">
+            <img src="static/img-3.jpg" alt="img">
+            <a href="static/img-3.jpg" class="download-btn" download> 
+            <img src="static/download.svg" alt="download-icon">
+            </a>
+        </div>
+        <div class="img-card">
+            <img src="static/img-4.jpg" alt="img">
+            <a href="static/img-4.jpg" class="download-btn" download>
+                <img src="static/download.svg" alt="download-icon">
+            </a>
+        </div>
+
+    </section>
+
+    <script src="static/script.js"></script>
+</body>
+
+</html>
