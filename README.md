@@ -18,3 +18,4 @@ http://localhost:8000
 The page should now load, and you'll see the latest news about India displayed.
 
 **SCREENSHOT'S:**
+![image](https://github.com/user-attachments/assets/02bccf46-00c8-4d21-8788-6d5f339cde0c)
